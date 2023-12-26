@@ -10,3 +10,7 @@ The aim of the project is to create a system that can collect, organize, and upd
 Microsoft Fabric is a collection of tools designed for individuals working with data, covering tasks in data engineering, analytics, and machine learning. It accommodates various preferred tools like Python, R, SQL, and DAX, as well as user-friendly options like DataFlow (Power Query). This entire framework is constructed on the Microsoft Azure platform.
 In our project, we utilized a Workspace, which acts as a designated folder within Fabric to organize all our projects and resources. We also incorporated other components of the Microsoft Fabric Architecture, including Notebooks, Semantic Models, and Power BI. Each of these elements plays a specific role in managing and presenting our data effectively.
 
+![Architecuture Image](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/architecture.png)
+
+The diagram above illustrates how our solution flows within Microsoft Fabric, from ingesting and processing the data. We obtained the dataset for this project by pulling information from the Worldometer website using its URL. Using a notebook, we read and transformed the data, loading it into a Fabric Lakehouse. Subsequently, we employed a SQL endpoint to query the data, and connected this endpoint URL to Power BI for creating visualizations based on the queried dataset.
+
