@@ -52,4 +52,22 @@ After utilizing SQL to query the dataset, the extracted dataset was saved into a
 ![query2](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/top10.png)
 
 ![query1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/query2.png)
+![visual Query](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/visualquery.png)
+
+# Data Visualization
+In this project, we've successfully ingested the data into the Microsoft Fabric Lakehouse. The subsequent step involves generating a report for end-users to visualize the dataset's output and gain insights derived from it. Using Power BI Desktop This report serves as a user-friendly interface, providing a clear and comprehensible presentation of the data findings, making it accessible and meaningful for stakeholders within the organization.
+
+**Choosing Lakehouse Connection**
+![connecting 1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/lakehouse_connection.png)
+
+**Conneting to Nigerian Population Lakehouse**
+![Nigerian Lakehouse](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/selectingNigerian.png)
+
+**Selecting Direct Query to Load the Data in Real Time**
+![Connection Setting](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/connection.png)
+
+
+
+
+
 
