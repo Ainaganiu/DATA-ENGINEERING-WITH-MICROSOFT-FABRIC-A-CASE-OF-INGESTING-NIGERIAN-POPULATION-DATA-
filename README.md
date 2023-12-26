@@ -76,9 +76,9 @@ These insights provide a comprehensive overview of Nigeria's demographic landsca
 
 ![Final Report](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/report.png)
 
-**Check the Live Report**
-You can check the live report of this project using the click button below. 
-[Click Here to view Report](
+**Check the Python Code for this Project**
+You can check the python code of this project using the click button below. 
+[Click Here to view Report](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/ETL%20Code/Nigerian%20Population%20Cleaning%20.ipynb)
 
 **Additional Information**
 The visualization of this project was done using Power BI Version: 2.123.742.0 64-bit (November 2023)
