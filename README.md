@@ -66,7 +66,24 @@ In this project, we've successfully ingested the data into the Microsoft Fabric 
 **Selecting Direct Query to Load the Data in Real Time**
 ![Connection Setting](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/connection.png)
 
+**Selecting Queries**
+![Selecting Queries](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/selectingQuerires.png)
 
+**Final Report**
+The analysis findings reveal that as of 2023, Nigeria's population stands at 1.87 billion, with an average age of 17 years. This indicates a significant proportion of young or working-age individuals in the country. Notably, the cities of Lagos, Kano, and Ibadan are identified as having the highest population concentrations.
+Moreover, a historical trend analysis spanning from 1960 to 2023 indicates a continuous upward trajectory in population. This sustained growth suggests a higher birth rate than death rate and implies a net positive immigration trend. Notably, the projected net immigration from Nigeria is anticipated to be 55,180 individuals by the year 2028.
+These insights provide a comprehensive overview of Nigeria's demographic landscape, highlighting key aspects such as population size, age distribution, urban concentration, and demographic trends over the years. This information can be valuable for strategic planning and decision-making within various sectors and organizations.
+
+![Final Report](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/report.png)
+
+**Check the Live Report**
+You can check the live report of this project using the click button below. 
+[Click Here to view Report](
+
+**Additional Information**
+The visualization of this project was done using Power BI Version: 2.123.742.0 64-bit (November 2023)
+
+Thank you 
 
 
 
