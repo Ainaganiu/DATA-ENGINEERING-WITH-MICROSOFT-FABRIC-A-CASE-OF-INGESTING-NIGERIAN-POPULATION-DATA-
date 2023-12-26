@@ -21,7 +21,7 @@ After establishing a Workspace and Lakehouse, the Extract, Transform, Load (ETL)
 
 Most of the integration the dataset employed in this project is an HTML file extracted from the Worldometers website, focusing on information related to the population of Nigeria. The dataset was connected using Python leveraging the pandas DataFrame.
 Upon connecting to the data, it was identified that there are three tables in the provided URL. To ensure compatibility with the SQL Endpoint—avoiding spaces between text and eliminating duplicates—we utilized a Python function. This function was designed to standardize the format of column headers.
-[urlloading](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/urlloading.png)
-[dataframe](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataframe.png)
-[tables1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataTables.png)
+![urlloading](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/urlloading.png)
+![dataframe](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataframe.png)
+![tables1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataTables.png)
 
