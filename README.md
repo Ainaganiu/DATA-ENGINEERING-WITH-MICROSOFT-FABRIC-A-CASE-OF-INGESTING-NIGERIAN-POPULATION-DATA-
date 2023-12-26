@@ -23,5 +23,25 @@ Most of the integration the dataset employed in this project is an HTML file ext
 Upon connecting to the data, it was identified that there are three tables in the provided URL. To ensure compatibility with the SQL Endpoint—avoiding spaces between text and eliminating duplicates—we utilized a Python function. This function was designed to standardize the format of column headers.
 ![urlloading](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/urlloading.png)
 ![dataframe](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataframe.png)
-![tables1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataTables.png)
+![tables1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/dataTables.png)  
+
+# Removing Headers Space
+We employ a custom or pre-defined Python function aimed at streamlining the process of removing spaces from column headers. The primary motivation behind this approach is to establish a reusable and efficient piece of code. By encapsulating the header cleaning logic within a function, we enhance the code's versatility, allowing it to seamlessly handle the task of cleaning table headers for any dataset.
+
+![removeHeader](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/cleanedheader.png)
+
+# Loading the Table into Lakehouse
+Following the standardization of column headers, the next step involves saving the DataFrame into files within the Lakehouse. 
+
+![saveLakehouse](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/savingLakehouse.png)
+
+Subsequently, these files are promoted into tables, rendering them prepared and organized for seamless use within the organization. This process ensures that the data is not only cleaned and standardized but also structured in a way that aligns with the organization's requirements for easy accessibility and analysis.
+
+![file Lakehouse](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/FilesLakehouse.png)
+![Load Table](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/LoadToTable.png)
+![Table Overview](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/LakehouseTableView.png)
+
+# Querying the Tables
+Microsoft Fabric provides us the option to use SQL to query the tables in the lakehouse using T-SQL or visual query option (Drag and Drop). In order to perform this, we swichted to SQL Analytics Endpoint as shown below
+
 
