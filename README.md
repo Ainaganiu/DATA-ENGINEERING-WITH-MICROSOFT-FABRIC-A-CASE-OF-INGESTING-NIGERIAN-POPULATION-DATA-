@@ -44,4 +44,12 @@ Subsequently, these files are promoted into tables, rendering them prepared and 
 # Querying the Tables
 Microsoft Fabric provides us the option to use SQL to query the tables in the lakehouse using T-SQL or visual query option (Drag and Drop). In order to perform this, we swichted to SQL Analytics Endpoint as shown below
 
+![Clicking SQL Endpoint](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/clickSQL.png)
+
+# Creating View
+After utilizing SQL to query the dataset, the extracted dataset was saved into a view. This step is crucial for creating a virtual representation of the queried data. Views serve as dynamic, customized perspectives on the dataset, allowing for tailored analyses and facilitating easier access to specific subsets of information as needed by different teams within the organization.
+
+![query2](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/top10.png)
+
+![query1](https://github.com/Ainaganiu/DATA-ENGINEERING-WITH-MICROSOFT-FABRIC-A-CASE-OF-INGESTING-NIGERIAN-POPULATION-DATA-/blob/main/Pictures/query2.png)
 
